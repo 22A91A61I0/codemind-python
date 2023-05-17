@@ -1,0 +1,5 @@
+def avg(a,b):
+    res=(a+b)/2
+    print('%.4f'%res)
+a,b=map(int,input().split())
+avg(a,b)
